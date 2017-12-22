@@ -34,7 +34,10 @@ Run the imported project by “right-clicking” on the new project and selectin
 ![](https://github.com/weijian2/Social-App-By-J2EE/raw/master/demoPics/VisitorPage.png)
 
 ## Usage/Quick Start
+Resister account, post blogs, comments other's blogs, enjoy!:+1:
+
 ## Known bugs
+If you find any bugs, feel free to contact weijian1@andrew.cmu.edu
 
 ## Todo list
 * Add Ajax call to update comments without reloading whole page
