@@ -1,8 +1,11 @@
 ## Introduction
-https://img.shields.io/teamcity/http/teamcity.jetbrains.com/s/bt345.svg
 This project is a simple social web application powered by J2EE. User can register account and post blogs, other user can comment your blogs.
 
 ## Requirements
+* Apache Tomat v8.5
+* Eclipse JEE
+* JAVA 8
+* MySQL
 
 ## Installation
 Clone the GitHub repository and then import Social-App-By-J2EE.war into your eclipse.
@@ -25,9 +28,16 @@ containing your unzipped version of Tomcat 8.5.
 Run the imported project by “right-clicking” on the new project and selecting “Run As -> Run on Server.
 
 ## Screenshots
+![](https://github.com/weijian2/Social-App-By-J2EE/raw/master/demoPics/login.png)
+![](https://github.com/weijian2/Social-App-By-J2EE/raw/master/demoPics/register.png)
+![](https://github.com/weijian2/Social-App-By-J2EE/raw/master/demoPics/HomePage.png)
+![](https://github.com/weijian2/Social-App-By-J2EE/raw/master/demoPics/VisitorPage.png)
 ## Usage/Quick Start
 ## Known bugs
+
 ## Todo list
+* Add Ajax call to update comments without reloading whole page
+
 ## Deployment
 Deployment Environment: Amazon EC2
 https://hypermap-cmu.appspot.com
