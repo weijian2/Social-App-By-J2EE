@@ -6,8 +6,20 @@ Clone the GitHub repository and then import Social-App-By-J2EE.war into your ecl
 
 ```
 git clone https://github.com/weijian2/Social-App-By-J2EE
-
 ```
+To import WAR file into Eclipse JEE, click on File -> Import. Select Web -> WAR File.
+* WAR file: Provide the full pathname of the WAR file on your computer.
+* Web project: This will pre-fill based on the WAR file name. You can change it, which is handy if
+you’re experimenting.
+* Target runtime: You will need to select “Apache Tomcat 8.5”. The first time you import a WAR
+file (or create new “Dynamic Web Project”) you will need to declare the new runtime environment. Do this by clicking on “New” and filling in the form as follows:
+	* Apache Tomat v8.5, then click “Next”
+	* Provide the Tomcat installation directory by giving the full pathname of the directory
+containing your unzipped version of Tomcat 8.5.
+	* Click “Finished”.
+* Click "Finished".
+
+
 
 ## Functions
 * 1.User registration and authorization. New users need to confirm their accounts by email.
