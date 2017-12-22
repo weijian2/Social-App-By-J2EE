@@ -32,6 +32,7 @@ Run the imported project by “right-clicking” on the new project and selectin
 ![](https://github.com/weijian2/Social-App-By-J2EE/raw/master/demoPics/register.png)
 ![](https://github.com/weijian2/Social-App-By-J2EE/raw/master/demoPics/HomePage.png)
 ![](https://github.com/weijian2/Social-App-By-J2EE/raw/master/demoPics/VisitorPage.png)
+
 ## Usage/Quick Start
 ## Known bugs
 
@@ -39,9 +40,10 @@ Run the imported project by “right-clicking” on the new project and selectin
 * Add Ajax call to update comments without reloading whole page
 
 ## Deployment
-Deployment Environment: Amazon EC2
-https://hypermap-cmu.appspot.com
+Deployment Environment: Amazon EC2 <br>
+[demo link](https://hypermap-cmu.appspot.com) <br>
 (Please contact me at weijian1@andrew.cmu.edu if this instance is not running)
+
 ## Change Log
 ## Licenses
 
