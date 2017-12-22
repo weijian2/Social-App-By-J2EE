@@ -10,10 +10,10 @@ Grumblr is a simple social web application powered by J2EE. User can register ac
 ## project architechture
 > Grumblr
 >> src
->>> controller
->>> databean
->>> formbean
->>> model
+>>> controller<br>
+>>> databean<br>
+>>> formbean<br>
+>>> model<br>
 
 ## Requirements
 * Apache Tomat v8.5
