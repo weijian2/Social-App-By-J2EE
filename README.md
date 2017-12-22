@@ -62,7 +62,7 @@ If you find any bugs, feel free to contact weijian1@andrew.cmu.edu
 
 ## Deployment
 Deployment Environment: Amazon EC2 <br>
-[demo link](https://hypermap-cmu.appspot.com) <br>
+[demo link](https://54.214.127.64/Social-App-By-J2EE) <br>
 (Please contact me at weijian1@andrew.cmu.edu if this instance is not running)
 
 ## Change Log
