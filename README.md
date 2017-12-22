@@ -8,38 +8,29 @@ Clone the GitHub repository and then import Social-App-By-J2EE.war into your ecl
 git clone https://github.com/weijian2/Social-App-By-J2EE
 ```
 To import WAR file into Eclipse JEE, click on File -> Import. Select Web -> WAR File.
-* WAR file: Provide the full pathname of the WAR file on your computer.
-* Web project: This will pre-fill based on the WAR file name. You can change it, which is handy if
+* **WAR** file: Provide the full pathname of the WAR file on your computer.
+* **Web project**: This will pre-fill based on the WAR file name. You can change it, which is handy if
 you’re experimenting.
-* Target runtime: You will need to select “Apache Tomcat 8.5”. The first time you import a WAR
+* **Target runtime**: You will need to select “Apache Tomcat 8.5”. The first time you import a WAR
 file (or create new “Dynamic Web Project”) you will need to declare the new runtime environment. Do this by clicking on “New” and filling in the form as follows:
-	* Apache Tomat v8.5, then click “Next”
+	* **Apache Tomat v8.5**, then click “Next”
 	* Provide the Tomcat installation directory by giving the full pathname of the directory
 containing your unzipped version of Tomcat 8.5.
 	* Click “Finished”.
 * Click "Finished".
 
-
-
-## Functions
-* 1.User registration and authorization. New users need to confirm their accounts by email.
-* 2.Editing user profile. The user can upload new image as profile image and add personal information.
-* 3.Users can create a new event by clicking on the map or searching for a certain location.A new event should have begin time, end time, event name, content, category and other optional information including specific location and image.
-* 4.Achievement system.The user in HyperMap can gather credits by attending events and creatin event. The different level user will have different level logo shown.
-* 5.Users can register for an event and get credits after their attendance being confirmed.
-* 6.Event creator can view all the users who have registered the event. And creator can also confirm the attendance of the registered user.
+Run the imported project by “right-clicking” on the new project and selecting “Run As -> Run on Server.
 
 ## Usage
 ## Known bugs
+## Todo list
 ## Deployment
-Deployment Environment: Google App Engine + Google Storage
+Deployment Environment: Amazon EC2
 https://hypermap-cmu.appspot.com
-(Please contact me at jiawenp1@andrew.cmu.edu if this instance is not running)
-
+(Please contact me at weijian1@andrew.cmu.edu if this instance is not running)
+## Change Log
 ## Licenses
 
-## Notes:
-I’m sending real Emails for registration and resetting.
-Make sure you use a real email address and confirm the link in the email sent to you.
-In settings.py, I changed my password in to password for submission.
+## Notes
+You need to have Eclipse JEE and MySQL installed in order to run this project on local machine or you can click deployed link above to run it remotely.
 
