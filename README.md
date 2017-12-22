@@ -1,13 +1,13 @@
 ## Introduction
 Grumblr is a simple social web application powered by J2EE. User can register account and post blogs, other user can comment your blogs.
 
-## Tech stack
+## Tech Stack
 * MVC design pattern
 * HTML/CSS/JavaScript/JAVA
 * JSP/JSTL/ORM
 * MYSQL
 
-## project architechture
+## Project Architechture
 > Grumblr
 >> src
 >>> controller<br>
