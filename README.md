@@ -39,7 +39,16 @@ containing your unzipped version of Tomcat 8.5.
 	* Click “Finished”.
 * Click "Finished".
 
-Run the imported project by “right-clicking” on the new project and selecting “Run As -> Run on Server.
+Run the imported project by “right-clicking” on the new project and selecting “Run As -> Run on Server. <br>
+After Installing MySQL, create the anonymous account and the “test” database by using following code<br>
+```
+mysql -u root –p
+alter user user() identified by '';
+create user ''@'localhost' identified by password '';
+grant all privileges on *.* to ''@'localhost';
+create database test;
+exit;
+```
 
 ## Screenshots
 login page
