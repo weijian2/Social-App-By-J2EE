@@ -1,5 +1,19 @@
 ## Introduction
-This project is a simple social web application powered by J2EE. User can register account and post blogs, other user can comment your blogs.
+Grumblr is a simple social web application powered by J2EE. User can register account and post blogs, other user can comment your blogs.
+
+## Tech stack
+* MVC design pattern
+* HTML/CSS/JavaScript/JAVA
+* JSP/JSTL/ORM
+* MYSQL
+
+## project architechture
+> Grumblr
+>> src
+>>> controller
+>>> databean
+>>> formbean
+>>> model
 
 ## Requirements
 * Apache Tomat v8.5
@@ -28,9 +42,13 @@ containing your unzipped version of Tomcat 8.5.
 Run the imported project by “right-clicking” on the new project and selecting “Run As -> Run on Server.
 
 ## Screenshots
+login page
 ![](https://github.com/weijian2/Social-App-By-J2EE/raw/master/demoPics/login.png)
+register page
 ![](https://github.com/weijian2/Social-App-By-J2EE/raw/master/demoPics/register.png)
+home page
 ![](https://github.com/weijian2/Social-App-By-J2EE/raw/master/demoPics/HomePage.png)
+visitor page
 ![](https://github.com/weijian2/Social-App-By-J2EE/raw/master/demoPics/VisitorPage.png)
 
 ## Usage/Quick Start
@@ -48,7 +66,15 @@ Deployment Environment: Amazon EC2 <br>
 (Please contact me at weijian1@andrew.cmu.edu if this instance is not running)
 
 ## Change Log
+v1.0.0(12/01/2017)<br>
+* user can register account using email
+* user can post blogs
+* user can comments other's blogs
+* user can delete any comments comment by themselves
+* user can see other's page
+
 ## Licenses
+NAN
 
 ## Notes
 You need to have Eclipse JEE and MySQL installed in order to run this project on local machine or you can click deployed link above to run it remotely.
